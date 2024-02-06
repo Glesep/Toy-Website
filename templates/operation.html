@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="textCenter">연산</h2>
+
+<ul>
+    <li>
+        - 시프트 연산
+        <li>
+            좌측 시프트: n번 -> <strong>2n만큼 곱한 값</strong>
+        </li>
+        <li>
+            우측 산술 시프트: n번 -> <strong>2n만큼 나눈 값 (부호 있는 경우 유지됨)</strong>
+        </li>
+        <li>
+            우측 논리 시프트: <strong>우측으로 밀 때 왼쪽 빈칸에는 0으로 채움 </strong>
+        </li>
+    </li>
+    <p> </p>
+    <li>
+        <li>- 비트연산 팁:
+            <li><strong>2진법의 숫자 4개는 16진법 숫자 1개로 변환 가능하다 (10진법으로 바꿀 때 유용함)</strong></li>
+            <li>예시: 0b111/00011 == 0xE/3</li>
+        </li>
+       
+        
+    </li>
+</ul>
+{% endblock %}

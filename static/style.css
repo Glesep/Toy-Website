@@ -1,0 +1,38 @@
+/*flex container*/
+.doc{
+    border: 6px solid rgb(138, 138, 140);
+   
+    display: flex;
+    align-items: stretch; 
+    flex-wrap: wrap;
+    align-items: stretch;                   /*flex container 내의 item들의 높이를 맞추기*/                
+}
+
+/*flex item*/
+main {
+    margin: 5%;
+    order: 2;
+    flex:1 1 500px
+}
+
+.textCenter{
+    text-align: center;
+}
+
+/*flex item*/
+aside {
+    flex-basis: 230px;
+    order: 1;
+    border-right: 1.5px solid gray;
+}
+
+li {
+    list-style: none;
+    margin : 20px;
+    right : 100%;
+   
+}
+
+.styled-element {
+    background-color: white;
+}
